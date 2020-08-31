@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+require("./mock/index")
 
 //全局引入axios
 import axios from 'axios'
