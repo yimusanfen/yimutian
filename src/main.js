@@ -12,9 +12,6 @@ import Vant from 'vant';
 import 'vant/lib/index.css';
 Vue.use(Vant);
 
-//模拟数据
-require("./mock/index.js")
-
 Vue.config.productionTip = false
 
 new Vue({
