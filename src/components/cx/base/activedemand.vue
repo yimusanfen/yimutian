@@ -3,7 +3,9 @@
     <div class="demodiv">
         <span>畅销榜</span>
     </div>
+    <div>
 
+    </div>
     <div class="bd">
         <div @click="cur('Jdbd')">基地榜单</div>
         <div @click="cur('Yzjd')">优质基地</div>

@@ -1,9 +1,9 @@
 <template>
 <div class="baseclassify">
     <div class="baseclassifya" v-for="(v,i) in arr" :key="i">
-        <img :src="arr[0].imgs"><br />
+        <img :src="v.imgs"><br />
         <span>
-            {{arr[0].sg}}
+            {{v.sg}}
         </span>
     </div>
 </div>
