@@ -10,8 +10,4 @@
 html {
     font-size: 26.66vw;
 }
-
-body {
-    font-size: .16rem;
-}
 </style>

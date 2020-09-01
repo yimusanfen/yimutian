@@ -1,6 +1,6 @@
 <template>
 <div>
-    拼工厂
+
 </div>
 </template>
 

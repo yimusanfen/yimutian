@@ -1,12 +1,12 @@
 <template>
 <div>
-    拼工厂
+    基地榜单
 </div>
 </template>
 
 <script>
 export default {
-
+    name: "jdbd"
 }
 </script>
 

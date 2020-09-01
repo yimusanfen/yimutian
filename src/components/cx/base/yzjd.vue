@@ -1,12 +1,12 @@
 <template>
 <div>
-    拼工厂
+    优质基地
 </div>
 </template>
 
 <script>
 export default {
-
+    name: "yzjd"
 }
 </script>
 
