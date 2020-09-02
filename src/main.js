@@ -14,6 +14,16 @@ Vue.use(Vant);
 //模拟数据
 require("./mock/index.js")
 
+// import 'lib-flexible'
+
+
+import { Tab, Tabs } from 'vant';
+Vue.use(Tab);
+Vue.use(Tabs);
+import { Card } from 'vant';
+Vue.use(Card);
+
+
 Vue.config.productionTip = false
 
 new Vue({
