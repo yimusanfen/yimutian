@@ -25,6 +25,11 @@ export default {
 <style scoped>
 .abcde {
     overflow: hidden;
+    position: relative;
+}
+
+.baseimg {
+    margin-top: 1.2rem;
 }
 
 .baseimg>img {

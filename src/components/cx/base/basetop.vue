@@ -4,7 +4,7 @@
         <span class="returnup" @click="fun()"> ＜ </span>
         <span>一起包基地</span>
         <div class="fengxiang">
-            <van-cell title="分享" @click="showShare = true" style="background: rgb(255, 169, 62);color:#fff" />
+            <van-cell title="分享" @click="showShare = true" style="background: rgb(255, 169, 62);color:#fff;" />
             <van-share-sheet v-model="showShare" title="立即分享给好友" :options="options" @select="onSelect" />
         </div>
     </div>
@@ -55,10 +55,6 @@ export default {
 </script>
 
 <style scoped>
-.together {
-    width: 100%;
-}
-
 .baseTop {
     height: 1.2rem;
     background: rgb(255, 169, 62);
@@ -67,7 +63,7 @@ export default {
     line-height: 1.2rem;
     color: white;
     font-family: "微软雅黑";
-    width: 100%;
+
 }
 
 .returnup {
@@ -77,5 +73,11 @@ export default {
 .fengxiang {
     background: rgb(255, 169, 62);
     float: right;
+}
+
+#togetherBase {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 </style>

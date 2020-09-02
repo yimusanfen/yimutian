@@ -1,6 +1,7 @@
 <template>
 <div>
-    优质基地
+    <div class="shopboss">
+    </div>
 </div>
 </template>
 
