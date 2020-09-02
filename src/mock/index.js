@@ -1,2 +1,2 @@
-// let Mock =require("mockjs");
-// Mock.mock("/xiaoming","get",require("./json/ivdeoapi.json"));
+let Mock =require("mockjs");
+Mock.mock("/over/list","get",require("./json/fsy/list.json"));

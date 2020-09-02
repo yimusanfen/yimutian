@@ -56,7 +56,11 @@ Vue.use(VueRouter)
   {
     path: '/miaosha',
     name: 'miaosha',
-    component: () => import( '../views/index/classify/miaosha.vue')
+    component: () => import( '../views/index/classify/miaosha.vue'),
+    children:[
+      {path:"/miaoera",name:"miaoera",components:()=>import('../views/index/classify/miaoer/miaoera')},
+      {path:"/miaoerb",name:"miaoerb",components:()=>import('../views/index/classify/miaoer/miaoerb')}
+    ]
   },
   //拼工厂
   {
