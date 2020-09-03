@@ -76,6 +76,12 @@ Vue.use(VueRouter)
     name: 'yijiandaifa',
     component: () => import( '../views/index/classify/yijiandaifa.vue')
   },
+  // 水果基地
+  {
+    path: '/shuiguojidi',
+    name: 'shuiguojidi',
+    component: () => import( '../views/index/classify/shuiguojidi.vue')
+  },
 
 
 

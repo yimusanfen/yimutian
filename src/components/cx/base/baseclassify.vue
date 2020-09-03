@@ -1,6 +1,6 @@
 <template>
 <div class="baseclassify">
-    <div class="baseclassifya" v-for="(v,i) in arr" :key="i">
+    <div class="baseclassifya" v-for="(v,i) in arr" :key="i" @click="fun()">
         <img :src="v.imgs"><br />
         <span>
             {{v.sg}}
@@ -36,6 +36,11 @@ export default {
             ],
         };
     },
+    methods: {
+        fun() {
+            this.$router.push('/shuiguojidi')
+        }
+    }
 };
 </script>
 
