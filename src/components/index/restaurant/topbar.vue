@@ -2,7 +2,7 @@
     <div class="topbar">
         <em class="iconfont icon-zuojiantou" @click="goback()"></em>
         <span>{{title}}</span>
-        <i class="iconfont icon-fanhui"></i>
+        <i class="iconfont icon-fanhui" @click=share()></i>
     </div>
 </template>
 
@@ -12,6 +12,9 @@ export default {
     methods: {
         goback(){
             this.$router.go(-1);
+        },
+        share(){
+            this.$emit('pao',true)
         }
     },
 }

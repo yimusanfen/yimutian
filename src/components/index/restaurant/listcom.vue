@@ -1,6 +1,6 @@
 <template>
     <div class="listcom">
-        <div v-for="(v,i) in newarr" :key="i">
+        <div class="item" v-for="(v,i) in newarr" :key="i">
             <van-card
             num="1"
             :price="v.newprice"
@@ -36,6 +36,13 @@ export default {
 
 <style scoped>
     .listcom{
+        width: 95%;
         font-size: 75px;
+        
+        margin: auto ;
+    }
+    .item{
+        margin: 0.2rem;
+        background-color: white;
     }
 </style>

@@ -12,7 +12,10 @@ export default {
     components:{
         topcon
     },
-    props:['arr']
+    props:['arr'],
+    methods:{
+        
+    }
 
 }
 </script>

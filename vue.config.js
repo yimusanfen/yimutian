@@ -9,7 +9,8 @@ module.exports ={
                 "&v":"@/views",
                 "&s":"@/store",
                 "&m":"@/mock",
-                "&u":"@/utils"
+                "&u":"@/utils",
+                "&mi":"@/mixins"
             }
         }
     },
@@ -31,19 +32,19 @@ module.exports ={
         //     }
         // }
     },
-    //移动端适配rem
-    // css:{
-    //     loaderOptions:{
-    //       css:{},
-    //       postcss:{
-    //         plugins:[
-    //           require('postcss-px2rem')({
-    //             //适配375屏幕，设计图750中量出来的尺寸要/2
-    //             //配置成37.5是为了兼容没有适配rem布局的第三方ui库
-    //             remUnit:37.5
-    //           })
-    //         ]
-    //       }
-    //     }
-    //   }
+    // 移动端适配rem
+    css:{
+        loaderOptions:{
+          css:{},
+          postcss:{
+            plugins:[
+              require('postcss-px2rem')({
+                //适配375屏幕，设计图750中量出来的尺寸要/2
+                //配置成37.5是为了兼容没有适配rem布局的第三方ui库
+                remUnit:37.5
+              })
+            ]
+          }
+        }
+      }
 }

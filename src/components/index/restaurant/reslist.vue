@@ -1,6 +1,6 @@
 <template>
     <div class="reslist">
-        <van-tabs v-model="active" sticky>
+        <van-tabs v-model="active" sticky offset-top="1.2rem" style="background-color: #ff4135;">
             <van-tab v-for="index in 4" :key="index" :title="listtitle[index-1]">
               <!-- 引用列表组件 -->
               <listcom :num="index"></listcom>
@@ -27,25 +27,25 @@ export default {
 
 <style scoped>
    
-    /deep/.van-sticky{
+    .van-sticky{
         height: 0.8rem;
     }
-    /deep/.van-tabs__wrap{
+    .van-tabs__wrap{
         height: 0.8rem;
     }
-    /deep/.van-tabs__nav{
+    .van-tabs__nav{
         height: 0.8rem;
     }
-    /deep/.van-tab{
+    .van-tab{
         height: 0.8rem;
         font-size: 0.3rem;
         padding: 0;
     }
-    /deep/.van-tab__text{
+    .van-tab__text{
         height: 100%;
         line-height: 0.8rem;
     }
-    /deep/.van-button{
+    .van-button{
         background-color: red;
     }
 </style>

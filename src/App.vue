@@ -8,7 +8,7 @@
 
 <style>
   html{
-    font-size: 26.67vw;
+    /* font-size: 26.67vw; */
   }
   html,body,#app{
     width: 100%;

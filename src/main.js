@@ -14,7 +14,8 @@ Vue.use(Vant);
 //模拟数据
 require("./mock/index.js")
 
-// import 'lib-flexible'
+//移动端适配
+import 'lib-flexible'
 
 
 import { Tab, Tabs } from 'vant';

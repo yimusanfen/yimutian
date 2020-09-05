@@ -39,7 +39,7 @@
         "orders":45,
         "bargain":19.07,
         "rights":["包邮","买家保障"],
-        "categoryid":2
+        "categoryid":1
     },
     {
         "id":4,
@@ -53,7 +53,7 @@
         "orders":45,
         "bargain":19.07,
         "rights":["包邮","买家保障"],
-        "categoryid":2
+        "categoryid":1
     },
     {
         "id":5,
@@ -67,12 +67,124 @@
         "orders":45,
         "bargain":19.07,
         "rights":["包邮","买家保障"],
-        "categoryid":3
+        "categoryid":1
     },
     {
         "id":6,
         "smallimg":"images/restaurant/index/sales/sales6.jpg",
         "bigimg":"images/restaurant/index/sales/sales1.jpg",
+        "title":"江苏兴化大闸蟹 河蟹 螃蟹 产地塘口直达 诚招社区团购",
+        "newprice":20,
+        "oldprice":23,
+        "address":"江苏泰州兴化市距离1040公里",
+        "views":4.75,
+        "orders":45,
+        "bargain":19.07,
+        "rights":["包邮","买家保障"],
+        "categoryid":1
+    },
+    {
+        "id":7,
+        "smallimg":"images/restaurant/index/res/res1.jpg",
+        "bigimg":"images/restaurant/index/res/res1.jpg",
+        "title":"江苏兴化大闸蟹 河蟹 螃蟹 产地塘口直达 诚招社区团购",
+        "newprice":20,
+        "oldprice":23,
+        "address":"江苏泰州兴化市距离1040公里",
+        "views":4.75,
+        "orders":45,
+        "bargain":19.07,
+        "rights":["包邮","买家保障"],
+        "categoryid":2
+    },
+    {
+        "id":8,
+        "smallimg":"images/restaurant/index/res/res2.jpg",
+        "bigimg":"images/restaurant/index/res/res2.jpg",
+        "title":"江苏兴化大闸蟹 河蟹 螃蟹 产地塘口直达 诚招社区团购",
+        "newprice":20,
+        "oldprice":23,
+        "address":"江苏泰州兴化市距离1040公里",
+        "views":4.75,
+        "orders":45,
+        "bargain":19.07,
+        "rights":["包邮","买家保障"],
+        "categoryid":3
+    },
+    {
+        "id":9,
+        "smallimg":"images/restaurant/index/res/res3.jpg",
+        "bigimg":"images/restaurant/index/res/res3.jpg",
+        "title":"江苏兴化大闸蟹 河蟹 螃蟹 产地塘口直达 诚招社区团购",
+        "newprice":20,
+        "oldprice":23,
+        "address":"江苏泰州兴化市距离1040公里",
+        "views":4.75,
+        "orders":45,
+        "bargain":19.07,
+        "rights":["包邮","买家保障"],
+        "categoryid":4
+    },
+    {
+        "id":10,
+        "smallimg":"images/restaurant/index/res/res4.jpg",
+        "bigimg":"images/restaurant/index/res/res4.jpg",
+        "title":"江苏兴化大闸蟹 河蟹 螃蟹 产地塘口直达 诚招社区团购",
+        "newprice":20,
+        "oldprice":23,
+        "address":"江苏泰州兴化市距离1040公里",
+        "views":4.75,
+        "orders":45,
+        "bargain":19.07,
+        "rights":["包邮","买家保障"],
+        "categoryid":2
+    },
+    {
+        "id":11,
+        "smallimg":"images/restaurant/index/res/res5.jpg",
+        "bigimg":"images/restaurant/index/res/res5.jpg",
+        "title":"江苏兴化大闸蟹 河蟹 螃蟹 产地塘口直达 诚招社区团购",
+        "newprice":20,
+        "oldprice":23,
+        "address":"江苏泰州兴化市距离1040公里",
+        "views":4.75,
+        "orders":45,
+        "bargain":19.07,
+        "rights":["包邮","买家保障"],
+        "categoryid":2
+    },
+    {
+        "id":12,
+        "smallimg":"images/restaurant/index/res/res6.jpg",
+        "bigimg":"images/restaurant/index/res/res6.jpg",
+        "title":"江苏兴化大闸蟹 河蟹 螃蟹 产地塘口直达 诚招社区团购",
+        "newprice":20,
+        "oldprice":23,
+        "address":"江苏泰州兴化市距离1040公里",
+        "views":4.75,
+        "orders":45,
+        "bargain":19.07,
+        "rights":["包邮","买家保障"],
+        "categoryid":3
+    },
+    {
+        "id":13,
+        "smallimg":"images/restaurant/index/res/res7.jpg",
+        "bigimg":"images/restaurant/index/res/res7.jpg",
+        "title":"江苏兴化大闸蟹 河蟹 螃蟹 产地塘口直达 诚招社区团购",
+        "newprice":20,
+        "oldprice":23,
+        "address":"江苏泰州兴化市距离1040公里",
+        "views":4.75,
+        "orders":45,
+        "bargain":19.07,
+        "rights":["包邮","买家保障"],
+        "categoryid":3
+    },
+    {
+        "id":14,
+        "smallimg":"images/restaurant/index/res/res8.jpg",
+        "bigimg":"images/restaurant/index/res/res8.jpg",
         "title":"江苏兴化大闸蟹 河蟹 螃蟹 产地塘口直达 诚招社区团购",
         "newprice":20,
         "oldprice":23,

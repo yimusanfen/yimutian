@@ -2,7 +2,7 @@
     <div class="sales">
         <h1>{{title}}</h1>
         <div class="con">
-            <salesitem class="item" v-for="(v,i) in this.$store.state.resmodule.resindex" :key="i" :obj="v"></salesitem>
+            <salesitem class="item" v-for="(v,i) in newsales" :key="i" :obj="v"></salesitem>
         </div>
     </div>
 </template>
@@ -13,7 +13,12 @@ export default {
     components:{
         salesitem
     },
-    props:['title']
+    props:['title'],
+    computed:{
+        newsales(){
+            return this.$store.state.resmodule.resindex.filter(item=>item.categoryid==1)
+        }
+    }
 }
 </script>
 
