@@ -26,6 +26,9 @@ export default {};
     width: 100%;
     height: 1.3rem;
     background-color: #f1f1f1;
+    position: fixed;
+    z-index: 2;
+    top: 0;
 }
 
 .header {
@@ -66,12 +69,12 @@ export default {};
 }
 
 .ssou {
-    width: 100%;
+    width: 98%;
     height: .7rem;
     background-color: #ffff;
     border-radius: .5rem .5rem .5rem .5rem;
     text-align: center;
-    border: .01rem solid #ccc;
+    border: 1px solid #ccc;
 }
 
 .ssou input {

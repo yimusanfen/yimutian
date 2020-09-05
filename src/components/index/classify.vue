@@ -44,7 +44,7 @@ export default {
                 {
                     name: "农机农资",
                     path: "/yijiandaifa",
-                    cass: "iconfont icon-fangxingou_-"
+                    cass: "iconfont icon-xin1"
                 },
                 {
                     name: "补贴专区",
@@ -77,6 +77,7 @@ export default {
     display: flex;
     margin-top: .4rem;
     flex-flow: wrap;
+
 }
 
 .zi {

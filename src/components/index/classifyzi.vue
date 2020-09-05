@@ -39,4 +39,8 @@ i {
     margin: 0 auto;
     line-height: .77rem;
 }
+
+span {
+    color: #3F3F3F;
+}
 </style>
