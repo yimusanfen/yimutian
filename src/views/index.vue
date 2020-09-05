@@ -2,7 +2,7 @@
     <div>
         <topBar></topBar>
         <classify></classify>
-        首页
+        <h2>首页</h2>
         
         <bottomBar></bottomBar>
         

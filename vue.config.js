@@ -9,6 +9,7 @@ module.exports ={
                 "&v":"@/views",
                 "&s":"@/store",
                 "&m":"@mock",
+                "#Y":"@/components/yaocai"
             }
         }
     },
