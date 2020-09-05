@@ -1,6 +1,6 @@
 <template>
 <div>
-    <div class="shopboss">
+    <div class="shopboss" @click="fun()">
         <div class="boss1">
             <img src="../../../../public/images/boss1.png" alt="" />
         </div>
@@ -30,12 +30,12 @@
             <span style="color:red;font-size:0.3rem">￥2.50</span>
         </div>
     </div>
-    <div class="shopboss">
+    <div class="shopboss" @click="fun()">
         <div class="boss1">
-            <img src="../../../../public/images/boss1.png" alt="" />
+            <img src="../../../../public/images/boss2.png" alt="" />
         </div>
         <div class="bossmessage">
-            <span class="bossmessage1">普宁市跃龙苗木</span>
+            <span class="bossmessage1">绿康园农业销售</span>
 
             <div class="bossmessage2"> 进店＞</div>
         </div>
@@ -60,12 +60,12 @@
             <span style="color:red;font-size:0.3rem">￥2.50</span>
         </div>
     </div>
-    <div class="shopboss">
+    <div class="shopboss" @click="fun()">
         <div class="boss1">
-            <img src="../../../../public/images/boss1.png" alt="" />
+            <img src="../../../../public/images/boss3.png" alt="" />
         </div>
         <div class="bossmessage">
-            <span class="bossmessage1">普宁市跃龙苗木</span>
+            <span class="bossmessage1">碧淼农贸商贸</span>
 
             <div class="bossmessage2"> 进店＞</div>
         </div>
@@ -96,6 +96,11 @@
 <script>
 export default {
     name: "yzjd",
+    methods: {
+        fun() {
+            this.$router.push('/qualityshop')
+        }
+    }
 };
 </script>
 

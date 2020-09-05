@@ -82,6 +82,12 @@ Vue.use(VueRouter)
     name: 'shuiguojidi',
     component: () => import( '../views/index/classify/shuiguojidi.vue')
   },
+  // 品质店家
+  {
+    path: '/qualityshop',
+    name: 'qualityshop',
+    component: () => import( '../views/index/classify/qualityshop.vue')
+  },
 
 
 

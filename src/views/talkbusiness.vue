@@ -1,16 +1,15 @@
 <template>
-    <div>
-        生意圈
-        <bottomBar></bottomBar>
-        
-    </div>
-    
+<div>
+    聊生意
+    <bottomBar></bottomBar>
+
+</div>
 </template>
 
 <script>
 import bottomBar from '&c/index/bottomBar.vue'
 export default {
-    components:{
+    components: {
         bottomBar
     }
 }
