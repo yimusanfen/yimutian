@@ -88,6 +88,12 @@ Vue.use(VueRouter)
     name: 'qualityshop',
     component: () => import( '../views/index/classify/qualityshop.vue')
   },
+  // 产地找货
+  {
+    path: '/chandizhaohuo',
+    name: 'chandizhaohuo',
+    component: () => import( '../views/discover/chandizhaohuo.vue')
+  },
 
 
 
