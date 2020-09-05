@@ -8,7 +8,7 @@ module.exports ={
                 "&a":"@/api",
                 "&v":"@/views",
                 "&s":"@/store",
-                "&m":"@mock",
+                "&m":"@/mock"
             }
         }
     },

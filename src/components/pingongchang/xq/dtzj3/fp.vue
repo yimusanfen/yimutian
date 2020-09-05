@@ -1,13 +1,12 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+	<div>粉皮</div>
 </template>
 
 <script>
 	export default{
-		name:"App"
+		name:"fp"
 	}
 </script>
+
 <style scoped>
 </style>

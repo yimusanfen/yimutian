@@ -64,6 +64,29 @@ Vue.use(VueRouter)
     name: 'pingongchang',
     component: () => import( '../views/index/classify/pingongchang.vue')
   },
+  {
+    path: '/shouyexq',
+    name: 'shouyexq',
+    component: () => import( '&c/pingongchang/xq/index.vue')
+  },
+  {
+    path: '/spyxq',
+    name: 'spyxq',
+    component: () => import( '&c/pingongchang/shangpinye/spy.vue')
+  },
+  {
+    path: '/jypjxqym',
+    name: 'jypjxqym',
+    component: () => import( '&c/pingongchang/shangpinye/jypjxq.vue')
+  },
+  
+  
+  
+  
+  
+  
+  
+  
   //包基地
   {
     path: '/baojidi',

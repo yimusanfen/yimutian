@@ -1,13 +1,12 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+	<div>整体</div>
 </template>
 
 <script>
 	export default{
-		name:"App"
+		name:"zongde"
 	}
 </script>
+
 <style scoped>
 </style>

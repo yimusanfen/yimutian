@@ -1,0 +1,115 @@
+<template>
+	<div>
+		<Gcbditem v-for="(v,i) in arr2" :key="i" :im="v.img" :ti="v.title" :by="v.by"
+		:bz="v.bz" :dm="v.dm" :cj="v.cjje" :nu="v.num"></Gcbditem>
+	</div>
+</template>
+
+<script>
+	import Gcbditem from './gcbditem.vue'
+	export default{
+		name:"gcbd",
+		components:{
+			Gcbditem
+		},
+		data(){
+			return {
+				arr2:[
+					{
+						img:"./images/mangguogan.jpg",
+						title:"【批发更优惠】西洋参正品吉林长白山特产花旗参粒头包邮",
+						by:"包邮1",
+						bz:"买家保障",
+						dm:"长白山祥鑫特产店",
+						cjje:"成交86万元",
+						num:"70"
+					},
+					{
+						img:"./images/mangguogan.jpg",
+						title:"【批发更优惠】西洋参正品吉林长白山特产花旗参粒头包邮",
+						by:"包邮2",
+						bz:"买家保障",
+						dm:"长白山祥鑫特产店",
+						cjje:"成交86万元",
+						num:"70"
+					},
+					{
+						img:"./images/mangguogan.jpg",
+						title:"【批发更优惠】西洋参正品吉林长白山特产花旗参粒头包邮",
+						by:"包邮3",
+						bz:"买家保障",
+						dm:"长白山祥鑫特产店",
+						cjje:"成交86万元",
+						num:"70"
+					},
+					{
+						img:"./images/mangguogan.jpg",
+						title:"【批发更优惠】西洋参正品吉林长白山特产花旗参粒头包邮",
+						by:"包邮4",
+						bz:"买家保障",
+						dm:"长白山祥鑫特产店",
+						cjje:"成交86万元",
+						num:"70"
+					},
+					{
+						img:"./images/mangguogan.jpg",
+						title:"【批发更优惠】西洋参正品吉林长白山特产花旗参粒头包邮",
+						by:"包邮5",
+						bz:"买家保障",
+						dm:"长白山祥鑫特产店",
+						cjje:"成交86万元",
+						num:"70"
+					},
+					{
+						img:"./images/mangguogan.jpg",
+						title:"【批发更优惠】西洋参正品吉林长白山特产花旗参粒头包邮",
+						by:"包邮6",
+						bz:"买家保障",
+						dm:"长白山祥鑫特产店",
+						cjje:"成交86万元",
+						num:"70"
+					},
+					{
+						img:"./images/mangguogan.jpg",
+						title:"【批发更优惠】西洋参正品吉林长白山特产花旗参粒头包邮",
+						by:"包邮7",
+						bz:"买家保障",
+						dm:"长白山祥鑫特产店",
+						cjje:"成交86万元",
+						num:"70"
+					},
+					{
+						img:"./images/mangguogan.jpg",
+						title:"【批发更优惠】西洋参正品吉林长白山特产花旗参粒头包邮",
+						by:"包邮8",
+						bz:"买家保障",
+						dm:"长白山祥鑫特产店",
+						cjje:"成交86万元",
+						num:"70"
+					},
+					{
+						img:"./images/mangguogan.jpg",
+						title:"【批发更优惠】西洋参正品吉林长白山特产花旗参粒头包邮",
+						by:"包邮9",
+						bz:"买家保障",
+						dm:"长白山祥鑫特产店",
+						cjje:"成交86万元",
+						num:"70"
+					},
+					{
+						img:"./images/mangguogan.jpg",
+						title:"【批发更优惠】西洋参正品吉林长白山特产花旗参粒头包邮",
+						by:"包邮10",
+						bz:"买家保障",
+						dm:"长白山祥鑫特产店",
+						cjje:"成交86万元",
+						num:"70"
+					}
+				]
+			}
+		}
+	}
+</script>
+
+<style scoped>
+</style>
