@@ -1,5 +1,6 @@
 <template>
 <div class="is">
+
     <topBar></topBar>
     <div class="iss">
         <classify></classify>
@@ -7,6 +8,7 @@
         <envelope></envelope>
         <navs></navs>
         <server></server>
+
     </div>
     <bottomBar></bottomBar>
 

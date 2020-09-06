@@ -1,16 +1,14 @@
 <template>
 <div id="heads">
-    <span v-for="(v,i) in arr" :key="i" class="sgfl">{{v}}</span>
+    <span v-for="(v,i) in this.$store.state.hxhome.arr.melons_arr" :key="i" class="sgfl">{{v}}</span>
 </div>
 </template>
 
 <script>
 export default {
-    data() {
-        return {
-            arr: ["笋干", "芒果", "人参", "苹果", "石榴", "柑橘", "猕猴桃", "竹笋", "黄花菜", "全部分类"]
-        }
-    },
+    mounted() {
+        this.$store.dispatch("listact")
+    }
 }
 </script>
 

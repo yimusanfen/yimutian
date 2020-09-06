@@ -9,7 +9,8 @@ module.exports = {
                 "&v": "@/views",
                 "&s": "@/store",
                 "&m": "@mock",
-                "#1": "@/components/maihuo"
+                "#1": "@/components/maihuo",
+                "#2": "@/utils"
             }
         }
     },

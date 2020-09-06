@@ -13,7 +13,7 @@
     </div>
 
     <div class="head_3">
-        <envelopezi v-for="(v,i) in arr" :key="i" :img="v.img" :jg="v.jg"></envelopezi>
+        <envelopezi v-for="(v,i) in this.$store.state.hxhome.arr.envelope_arr" :key="i" :img="v.img" :jg="v.jg"></envelopezi>
     </div>
 </div>
 </template>
@@ -24,24 +24,8 @@ export default {
     components: {
         envelopezi
     },
-    data() {
-        return {
-            arr: [{
-                    img: '/images/envelopetwo.png',
-                    jg: '19'
-                },
-                {
-                    img: '/images/envelopeone.png',
-                    jg: '140'
-                }, {
-                    img: '/images/envelopethree.png',
-                    jg: '6'
-                }, {
-                    img: '/images/envelopefour.png',
-                    jg: '0.45'
-                }
-            ]
-        }
+    mounted() {
+        this.$store.dispatch("listact")
     },
 }
 </script>

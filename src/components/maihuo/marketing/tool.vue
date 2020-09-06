@@ -4,7 +4,7 @@
         <span>推广营销</span>
     </div>
     <div class="tool_nav">
-        <businesszi v-for="(v,i) in tool_arr" :key="i" :ids="v.id" :icon="v.ico" :path="v.path" :spans="v.spans" :colors="v.colors"></businesszi>
+        <businesszi v-for="(v,i) in this.$store.state.hxhome.arr.tool_arr" :key="i" :ids="v.id" :icon="v.ico" :path="v.path" :spans="v.spans" :colors="v.colors"></businesszi>
 
     </div>
 </div>
@@ -16,24 +16,8 @@ export default {
     components: {
         businesszi
     },
-    data() {
-        return {
-            tool_arr: [{
-                    id: 1,
-                    ico: "iconfont icon-shouhou2",
-                    path: "/ceshi2",
-                    spans: "精准推广",
-                    colors: '#000'
-                },
-                {
-                    id: 2,
-                    ico: "iconfont icon-fahuo",
-                    path: "/ceshi2",
-                    spans: "万能推广包",
-                    colors: '#000'
-                }
-            ]
-        }
+    mounted() {
+        this.$store.dispatch("listact")
     },
 }
 </script>

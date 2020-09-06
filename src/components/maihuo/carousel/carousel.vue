@@ -1,7 +1,7 @@
 <template>
 <div>
     <el-carousel indicator-position="outside">
-        <el-carousel-item v-for="(v,i) in carousel_arr" :key="i">
+        <el-carousel-item v-for="(v,i) in this.$store.state.hxhome.arr.carousel_arr" :key="i">
             <img :src="v.img">
         </el-carousel-item>
     </el-carousel>
@@ -10,19 +10,9 @@
 
 <script>
 export default {
-    data() {
-        return {
-            carousel_arr: [{
-                    img: "/images/lunbo1.jpg"
-                },
-                {
-                    img: "/images/lunbo2.jpg"
-                },
-                {
-                    img: "/images/lunbo3.jpg"
-                }
-            ]
-        }
+
+    mounted() {
+        this.$store.dispatch("listact")
     },
 }
 </script>

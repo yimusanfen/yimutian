@@ -4,7 +4,7 @@
         <span>推广营销</span>
     </div>
     <div class="marketing_nav">
-        <businesszi v-for="(v,i) in marketing_arr" :key="i" :ids="v.id" :icon="v.ico" :path="v.path" :spans="v.spans" :colors="v.colors"></businesszi>
+        <businesszi v-for="(v,i) in this.$store.state.hxhome.arr.marketing_arr" :key="i" :ids="v.id" :icon="v.ico" :path="v.path" :spans="v.spans" :colors="v.colors"></businesszi>
 
     </div>
 </div>
@@ -16,43 +16,8 @@ export default {
     components: {
         businesszi
     },
-    data() {
-        return {
-            marketing_arr: [{
-                    id: 1,
-                    ico: "iconfont icon-shouhou2",
-                    path: "/ceshi1",
-                    spans: "精准推广",
-                    colors: '#000'
-                },
-                {
-                    id: 2,
-                    ico: "iconfont icon-fahuo",
-                    path: "/ceshi1",
-                    spans: "万能推广包",
-                    colors: '#000'
-                },
-                {
-                    id: 3,
-                    ico: "iconfont icon-dianhua",
-                    path: "/ceshi1",
-                    spans: "品牌广告",
-                    colors: '#000'
-                }, {
-                    id: 4,
-                    ico: "iconfont icon-fahuo",
-                    path: "/ceshi1",
-                    spans: "生意热门",
-                    colors: '#000'
-                }, {
-                    id: 5,
-                    ico: "iconfont icon-baoguoshuju",
-                    path: "/ceshi1",
-                    spans: "基地招商",
-                    colors: '#000'
-                }
-            ]
-        }
+    mounted() {
+        this.$store.dispatch("listact")
     },
 }
 </script>
