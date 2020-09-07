@@ -28,7 +28,7 @@ export default {
 <style scoped>
     .classify{
         width: 100%;
-        height: 3rem;
+        height: 2rem;
         flex-flow: wrap;
         display: flex;
     }

@@ -24,14 +24,16 @@ export default {
 <style scoped>
     .botbar{
         width: 100%;
-        height: 2rem;
+        height: 1rem;
         display: flex;
         position: fixed;
         bottom: 0;
+        background-color: white;
     }
     .botbar-item{
         flex: 1;
         text-align: center;
         align-items: center;
+        line-height: 1rem;
     }
 </style>

@@ -11,6 +11,19 @@ import Vant from 'vant';
 import 'vant/lib/index.css';
 Vue.use(Vant);
 
+//模拟数据
+require("./mock/index.js")
+
+//移动端适配
+import 'lib-flexible'
+
+
+import { Tab, Tabs } from 'vant';
+Vue.use(Tab);
+Vue.use(Tabs);
+import { Card } from 'vant';
+Vue.use(Card);
+
 
 //模拟数据
 require("./mock/index.js")

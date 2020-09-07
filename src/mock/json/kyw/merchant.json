@@ -1,0 +1,563 @@
+[
+    {
+        "merchantid":1001,
+        "img":"../images/merchant/photo/1001.jpg",
+        "boss":"屈磊",
+        "name":"金鑫满堂商贸百货批发",
+        "grade":[7,5.0,5.0,5.0],
+        "fvcs":[1734,6078,305,4703],
+        "presentation":"从事农副产品，食品，百货批发，地摊。夜市，周边区县批发商多多咨询",
+        "label":["实人","开店宝","个体户","资质认证","牛商"],
+        "address":"四川成都新都区",
+        "sales":"批发商（省会级）",
+        "authentication":[{}],
+        "register":1,
+        "evaluate":{
+            "haopinglv":"100",
+            "dingdanjia":[65,195],
+            "zuijinfahuo":20200903,
+            "fahuoshijian":11,
+            "eval":[
+                {
+                    "id":1,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"张家辉111",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":2,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"匿名",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"low",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":3,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"刘德华",
+                    "pingjia":"",
+                    "time":20200820,
+                    "eval":"mid",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":4,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"刘亦菲",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":5,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"冯赛云",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"mid",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":6,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"韦岩松",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"mid",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":7,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"xixi",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":8,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"万茜",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"河南省福州市"
+
+                }
+                
+            ]
+        }
+
+    },
+    {
+        "merchantid":1002,
+        "img":"../images/merchant/photo/1002.jpg",
+        "boss":"曾恒",
+        "name":"鸿艺粉业",
+        "grade":[4,0,0,0],
+        "fvcs":[175,3397,108,0],
+        "presentation":"源自乌蒙山原料产地，山泉水制作公司成立于2012年，坐落于山清水秀的乌蒙山区，经过多年努力，公司发展成为省级龙头企业",
+        "label":["资质认证","企业","实人","开店宝","牛商"],
+        "address":"青海西宁城东区",
+        "sales":"批发市场代卖",
+        "authentication":[{}],
+        "register":1,
+        "evaluate":{
+            "haopinglv":"100",
+            "dingdanjia":[65,195],
+            "zuijinfahuo":20200903,
+            "fahuoshijian":11,
+            "eval":[
+                {
+                    "id":1,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"张家辉222",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"low",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":2,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"匿名",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"mid",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":3,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"刘德华",
+                    "pingjia":"",
+                    "time":20200820,
+                    "eval":"mid",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":4,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"刘亦菲",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":5,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"冯赛云",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":6,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"韦岩松",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":7,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"xixi",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":8,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"万茜",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"low",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"河南省福州市"
+
+                }
+                
+            ]
+        }
+        
+
+    },
+    {
+        "merchantid":1003,
+        "img":"../images/merchant/photo/1003.jpg",
+        "boss":"郭玉",
+        "name":"藏瀚堂特产商行",
+        "grade":[11,4.9,4.9,4.9],
+        "fvcs":[4244,11000,4678,320000],
+        "presentation":"本店以 健康人类，服务社会为宗旨。以诚、信、亲、和、力为经营理念。",
+        "label":["资质认证","采购认证","实人","开店宝","个体户","牛商3年"],
+        "address":"青海西宁城东区",
+        "sales":"批发市场代卖",
+        "authentication":[{}],
+        "register":3,
+        "evaluate":{
+            "haopinglv":"100",
+            "dingdanjia":[65,195],
+            "zuijinfahuo":20200903,
+            "fahuoshijian":11,
+            "eval":[
+                {
+                    "id":1,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"张家辉",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":2,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"匿名",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"mid",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":3,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"刘德华",
+                    "pingjia":"",
+                    "time":20200820,
+                    "eval":"low",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":4,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"刘亦菲",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":5,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"冯赛云",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"mid",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":6,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"韦岩松",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"low",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":7,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"xixi",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":8,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"万茜",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"河南省福州市"
+
+                }
+                
+            ]
+        }
+
+    },
+    {
+        "merchantid":1004,
+        "img":"../images/merchant/photo/1004.jpg",
+        "boss":"张娜",
+        "name":"禹州鑫园粉条",
+        "grade":[11,5.0,5.0,5.0],
+        "fvcs":[4244,11000,4678,320000],
+        "presentation":"客户的满意是对我们最大的支持！（联系我时，一定要说是在一亩田上看到的）",
+        "label":["个体户","实人","开店宝"],
+        "address":"河南许昌禹州市",
+        "sales":"农业生产企业",
+        "authentication":[{}],
+        "register":2,
+        "evaluate":{
+            "haopinglv":"100",
+            "dingdanjia":[65,195],
+            "zuijinfahuo":20200903,
+            "fahuoshijian":11,
+            "eval":[
+                {
+                    "id":1,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"张家辉",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":2,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"匿名",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":3,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"刘德华",
+                    "pingjia":"",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":4,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"刘亦菲",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":5,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"冯赛云",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":6,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"韦岩松",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":7,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"xixi",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":8,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"万茜",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"河南省福州市"
+
+                }
+                
+            ]
+        }
+
+    },
+    {
+        "merchantid":1005,
+        "img":"../images/merchant/photo/1005.jpg",
+        "boss":"林先珍",
+        "name":"格律诗商贸部",
+        "grade":[9,5.0,5.0,5.0],
+        "fvcs":[1797,47000,1924,41300],
+        "presentation":"本商贸公司长期经营跑江湖摆地摊产品，价格美丽长期供货批发，需要的老板可以联系13208115257",
+        "label":["实人","开店宝"],
+        "address":"四川成都金牛区",
+        "sales":"批发市场代卖",
+        "authentication":[{}],
+        "register":3,
+        "evaluate":{
+            "haopinglv":"100",
+            "dingdanjia":[65,195],
+            "zuijinfahuo":20200903,
+            "fahuoshijian":11,
+            "eval":[
+                {
+                    "id":1,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"张家辉",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":2,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"匿名",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":3,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"刘德华",
+                    "pingjia":"",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":4,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"刘亦菲",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":5,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"冯赛云",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":6,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"韦岩松",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":7,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"xixi",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"福建省福州市"
+
+                },
+                {
+                    "id":8,
+                    "userimg":"../images/merchant/eval/userimg.jpg",
+                    "username":"万茜",
+                    "pingjia":"吃着很好，味道不错，下次还会再来",
+                    "time":20200820,
+                    "eval":"good",
+                    "buy":{"wd":"【五香味】 250g袋装藏...","num":"6袋"},
+                    "address":"河南省福州市"
+
+                }
+                
+            ]
+        }
+
+    }
+]

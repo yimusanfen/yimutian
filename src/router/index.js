@@ -77,6 +77,25 @@ Vue.use(VueRouter)
     component: () => import( '../views/index/classify/yijiandaifa.vue')
   },
 
+  //餐厅食材【列表页】
+  {
+    path: '/liebiao/:index',
+    name: 'liebiao',
+    component: () => import( '../views/kyw/liebiao.vue')
+  },
+  //餐厅食材【详情页】
+  {
+    path: '/details/:value',
+    name: 'details',
+    component: () => import( '../views/kyw/details.vue')
+  },
+  //评价页面
+  {
+    path:'/evalpage/:evalobj/:isshow',
+    name:'evalpage',
+    component: () => import( '../views/kyw/evalpage.vue')
+  },
+
 
 
 
