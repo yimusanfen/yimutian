@@ -1,4 +1,5 @@
 <template>
+	<div>中评</div>
 </template>
 
 <script>

@@ -9,9 +9,13 @@
 		<!-- 下拉刷新 -->
 		<div class="sx">
 			<van-pull-refresh v-model="isLoading" @refresh="onRefresh" class="fresh">
-				<p></p>
+				<p>
+					<!-- 动态组件 -->
+					<Zd></Zd>
+				</p>
 			</van-pull-refresh>
 		</div>
+		
 		
 		
 		
@@ -19,9 +23,15 @@
 </template>
 
 <script>
+	import Zd from './jypjxqdtzj/zongde.vue'
+	
+	
 	import { Toast } from 'vant';
 	export default{
 		name:"jypjxq",
+		components:{
+			Zd
+		},
 		data(){
 			return {
 				count: 0,
@@ -63,6 +73,6 @@
 		margin-top: 49px;
 	}
 	.fresh{
-		height: 100px;
+		height: 1000px;
 	}
 </style>

@@ -1,5 +1,6 @@
 module.exports ={ 
     //配置解析别名
+	lintOnSave: false,
     configureWebpack:{
         resolve:{
             alias:{
