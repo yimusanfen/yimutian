@@ -89,6 +89,12 @@ Vue.use(VueRouter)
     name: 'details',
     component: () => import( '../views/kyw/details.vue')
   },
+  //评价页面
+  {
+    path:'/evalpage/:evalobj/:isshow',
+    name:'evalpage',
+    component: () => import( '../views/kyw/evalpage.vue')
+  },
 
 
 

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="evaluate" @click="toevalpage()">
         <div class="top">
             <p>交易评价</p>
             <span>全部({{evalobj[0].evaluate.eval.length}})</span>
@@ -9,36 +9,42 @@
             <p v-if="evalobj[0]"><span>好评率{{evalobj[0].evaluate.haopinglv}}%</span><span>订单价(￥{{evalobj[0].evaluate.dingdanjia[0]}}-{{evalobj[0].evaluate.dingdanjia[1]}})</span></p>
             <p v-if="evalobj[0]"><span>最近发货({{evalobj[0].evaluate.zuijinfahuo|fil}})</span><span>发货时间({{evalobj[0].evaluate.fahuoshijian}})小时</span></p>
         </div>
-        <div  v-for="(v,i) in evalobj[0].evaluate.eval" :key="i">
-            <div class="eval" v-if="i<isshow">
-            <p class="item">
-                <img :src="evalobj[0].evaluate.eval[i].userimg" alt="">
-                <span>{{evalobj[0].evaluate.eval[i].username}}</span> 
-            </p>
-            <p class="pingjia">{{evalobj[0].evaluate.eval[i].pingjia}}</p>
-            <p class="timeandother"><span>{{evalobj[0].evaluate.eval[i].time|fil}}</span><span>{{evalobj[0].evaluate.eval[i].buy.wd}}{{evalobj[0].evaluate.eval[i].buy.num}}</span><span>{{evalobj[0].evaluate.eval[i].address}}</span></p>
-            </div>
-        </div>
-        <!-- {{evalobj.evaluate.eval.length}} -->
+        <evacon :evalarr="evalobj[0].evaluate.eval" :isshow="isshow" ></evacon>
+        <!-- {{evalobj[0].evaluate.eval}} -->
+        
     </div>
 </template>
 
 <script>
+import evacon from './evacon.vue'
 export default {
+    components:{
+        evacon
+    },
     props:['evalobj','isshow'],
+    
     filters:{
         fil(val){
             return (''+val).slice(0,4)+'-'+(''+val).slice(4,6)+'-'+(''+val).slice(6,8)
         }
     },
-    created(){
+    methods: {
+        toevalpage(){
+            this.$router.push({name:'evalpage',params:{evalobj:this.evalobj[0].evaluate.eval,isshow:this.evalobj[0].evaluate.eval.length}})
+
+        },
         
     },
+    
     
 }
 </script>
 
 <style scoped>
+    .evaluate{
+        border-bottom: 0.3rem solid #f2f2f2;
+
+    }
     .top{
         width: 95%;
         display: flex;
@@ -72,32 +78,5 @@ export default {
         border-radius: 0.3rem;
     }
 
-    .eval{
-        width: 95%;
-        margin: 0 auto;
-        border-bottom: 1px solid #ccc;
-        padding: 0.3rem 0;
-    }
-    .item{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        font-size: 0.4rem;
-
-
-    }
-    .item img{
-        width: 0.8rem;
-        margin-right: 0.2rem;
-    }
-    .pingjia{
-        font-size: 0.4rem;
-        margin: 0.1rem 0;
-    }
-    .timeandother{
-        color: #666;
-    }
-    .timeandother span{
-        margin: 0 0.2rem;
-    }
+    
 </style>

@@ -16,7 +16,7 @@
 
                 </van-tab>
                 <van-tab :title="toplist[2].title"  :badge="toplist[2].badge">
-                   
+                   <merch :mer="newmerch"></merch>
                     
                 </van-tab>
                 <van-tab :title="toplist[3].title"  :badge="toplist[3].badge">
@@ -24,6 +24,7 @@
                 </van-tab>
             </van-tabs>
         </div>
+        <gouwubar></gouwubar>
         <!-- 弹出层 -->
         <div class="over" v-show="show">
             <p>回到首页</p>
@@ -41,11 +42,15 @@
 import lunbo from '&c/index/details/lunbo.vue'
 import contop from '&c/index/details/contop.vue'
 import evaluate from '&c/index/details/evaluate.vue'
+import merch from '&c/index/details/merch.vue'
+import gouwubar from '&c/index/details/gouwubar.vue'
 export default {
     components:{
         lunbo,
         contop,
-        evaluate
+        evaluate,
+        merch,
+        gouwubar
     },
     data() {
         return {
