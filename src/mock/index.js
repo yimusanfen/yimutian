@@ -2,6 +2,8 @@ let Mock =require("mockjs");
 Mock.mock("res/index/sales","get",require("./json/kyw/resindex.json"));
 Mock.mock("res/index/topcon/liebiao","get",require("./json/kyw/list.json"));
 Mock.mock("/res/details/eval","get",require("./json/kyw/merchant.json"))
+
+Mock.mock("/home/listdata","get",require("./json/listdata.json"))
 // Mock.mock("res/index/sales","get",()=>{
 //     return indexdata
 // });
@@ -24,3 +26,7 @@ Mock.mock("/res/details/eval","get",require("./json/kyw/merchant.json"))
 //         }
 //     ]
 // })
+// let Mock =require("mockjs");
+// Mock.mock("/xiaoming","get",require("./json/ivdeoapi.json"));
+
+

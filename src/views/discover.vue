@@ -3,9 +3,7 @@
         <h1>发现</h1>
         <disindex v-for="(v) in listarr" :key="v.id" :obj="v"></disindex>
         <bottomBar class="botbar"></bottomBar>
-        
     </div>
-    
 </template>
 
 <script>
@@ -19,14 +17,14 @@ export default {
     data(){
         return {
             listarr:[
-                {id:1,title:"生意圈",imgsrc:"images/discover/index/dis1.jpg"},
-                {id:2,title:"广场",imgsrc:"images/discover/index/dis2.jpg"},
-                {id:3,title:"新农视频",imgsrc:"images/discover/index/dis3.jpg"},
-                {id:4,title:"直播",imgsrc:"images/discover/index/dis4.jpg"},
-                {id:5,title:"全国行情",imgsrc:"images/discover/index/dis5.jpg"},
-                {id:6,title:"市场代卖",imgsrc:"images/discover/index/dis6.jpg"},
-                {id:7,title:"市场代采",imgsrc:"images/discover/index/dis7.jpg"},
-                {id:8,title:"产地找货",imgsrc:"images/discover/index/dis8.jpg"},
+                {id:1,title:"生意圈",imgsrc:"images/discover/index/dis1.jpg",to:"/"},
+                {id:2,title:"广场",imgsrc:"images/discover/index/dis2.jpg",to:"/"},
+                {id:3,title:"新农视频",imgsrc:"images/discover/index/dis3.jpg",to:"/"},
+                {id:4,title:"直播",imgsrc:"images/discover/index/dis4.jpg",to:"/"},
+                {id:5,title:"全国行情",imgsrc:"images/discover/index/dis5.jpg",to:"/"},
+                {id:6,title:"市场代卖",imgsrc:"images/discover/index/dis6.jpg",to:"/"},
+                {id:7,title:"市场代采",imgsrc:"images/discover/index/dis7.jpg",to:"/"},
+                {id:8,title:"产地找货",imgsrc:"images/discover/index/dis8.jpg",to:"/chandizhaohuo"},
 
             ]
         }

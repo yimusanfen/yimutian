@@ -1,14 +1,14 @@
 <template>
-  <div id="app">
+<div id="app">
     <div id="nav">
     </div>
-    <router-view/>
-  </div>
+    <router-view />
+</div>
 </template>
 
 <style>
   html{
-    /* font-size: 26.67vw; */
+    font-size: 26.67vw;
   }
   html,body,#app{
     width: 100%;

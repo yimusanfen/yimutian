@@ -1,5 +1,5 @@
 <template>
-    <div class="dis-item">
+    <div class="dis-item" @click="go(obj.to)">
         <img :src="obj.imgsrc" alt="">
         <span>{{obj.title}}</span>
         <!-- <img src="images/discover/index/dis1.jpg" alt="">
@@ -15,7 +15,12 @@ export default {
             type:Object,
             required:true
         }
-    }
+    },
+    methods: {
+        go(path){
+            this.$router.push(path)
+        }
+    },
 }
 </script>
 

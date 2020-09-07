@@ -1,7 +1,7 @@
 <template>
-    <div>
-        拼工厂
-    </div>
+<div>
+    拼工厂
+</div>
 </template>
 
 <script>

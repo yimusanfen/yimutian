@@ -76,6 +76,24 @@ Vue.use(VueRouter)
     name: 'yijiandaifa',
     component: () => import( '../views/index/classify/yijiandaifa.vue')
   },
+  // 水果基地
+  {
+    path: '/shuiguojidi',
+    name: 'shuiguojidi',
+    component: () => import( '../views/index/classify/shuiguojidi.vue')
+  },
+  // 品质店家
+  {
+    path: '/qualityshop',
+    name: 'qualityshop',
+    component: () => import( '../views/index/classify/qualityshop.vue')
+  },
+  // 产地找货
+  {
+    path: '/chandizhaohuo',
+    name: 'chandizhaohuo',
+    component: () => import( '../views/discover/chandizhaohuo.vue')
+  },
 
   //餐厅食材【列表页】
   {
