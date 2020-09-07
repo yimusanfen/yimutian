@@ -92,6 +92,6 @@ border-top-left-radius:0.1rem ;border-bottom-left-radius:0.1rem ;margin-left: 0.
 .box11 p{font-size: 0.1rem;margin-left: 0.1rem;}
 .box13{display: flex;margin-top: 0.2rem;}
 .box13 span{flex: 1;text-align: center;}
-.box13 img{width: 0.5rem;margin-bottom: 0.1rem;}
+.box13 img{width: 0.5rem;margin-bottom: 0.1rem;margin-left: 0.35rem;}
 /* .box13 p{line-height: 0.4rem;} */
 </style>

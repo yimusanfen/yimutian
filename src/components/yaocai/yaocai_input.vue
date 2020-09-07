@@ -52,10 +52,13 @@ export default {
         console.log(item);
       },
       fun(){
+        // 获取关键字
         this.aa=this.$refs.aaa.value
+        // 拿关键字跟数据进行匹配 
         this.num = this.KKK.filter(item=>item.sou==this.aa)
         // console.log(this.num)
         let data=JSON.stringify(this.num);
+        // 将匹配出来的数据发送到 展示页面
         this.$router.push({name:"yaocai_listB",query:{xixi:data,dahuang:this.aa}})
       }
     },
@@ -63,17 +66,7 @@ export default {
       this.restaurants = this.loadAll();
    
     },
-    computed:{
-		arrB(){
-			return this.WWW.filter(item=>item.sign2=='B')
-		},
-		arrC(){
-			return this.WWW.filter(item=>item.sign2=='C')
-		},
-		arrD(){
-			return this.WWW.filter(item=>item.sign2=='D')
-		},
-	}
+   
 }
 </script>
 

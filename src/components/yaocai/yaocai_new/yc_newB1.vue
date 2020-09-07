@@ -1,10 +1,10 @@
 <template>
     <div class="box">
-        <div class="box1" v-for="(v,i) in arr" :key="i">
+        <div class="box1" v-for="(v,i) in VVV" :key="i">
             <img :src="v.img">
             <div>
-                <h3>{{v.text}}</h3>
-                <span  class="box2"><p>￥{{v.price}}</p><h4>立马抢</h4></span>
+                <h3>{{v.name}}</h3>
+                <span  class="box2"><p>￥{{v.price1}}</p><h4>立马抢</h4></span>
             </div>
         </div>
     </div>
@@ -12,14 +12,10 @@
 
 <script>
 export default {
+    props:["VVV"],
     data(){
         return{
-            arr:[
-                {id:1,img:"yaocai/baokuan1.jpg",text:"【限时秒杀】长白山保鲜人参泡酒煲汤专用大量批发可贴牌",price:"0.95"},
-                {id:1,img:"yaocai/baokuan1.jpg",text:"【限时秒杀】长白山保鲜人参泡酒煲汤专用大量批发可贴牌",price:"0.95"},
-                {id:1,img:"yaocai/baokuan1.jpg",text:"【限时秒杀】长白山保鲜人参泡酒煲汤专用大量批发可贴牌",price:"0.95"},
-                {id:1,img:"yaocai/baokuan1.jpg",text:"【限时秒杀】长白山保鲜人参泡酒煲汤专用大量批发可贴牌",price:"0.95"}
-            ]
+            
         }
     }
 }

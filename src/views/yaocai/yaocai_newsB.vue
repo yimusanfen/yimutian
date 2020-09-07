@@ -11,7 +11,8 @@ export default {
     components:{Yc_newB},
     created(){
         this.$store.dispatch("vuexaxiosA")
-    }
+	}
+   
 }
 </script>
 
