@@ -94,6 +94,7 @@ const routes = [
     name: 'chandizhaohuo',
     component: () => import( '../views/discover/chandizhaohuo.vue')
   },
+<<<<<<< HEAD
 
   //餐厅食材【列表页】
   {
@@ -193,6 +194,47 @@ const routes = [
   component:()=>import('../views/index/classify/miaoer/example.vue')
 },
 
+=======
+  // 药材滋补
+  {
+    path: '/yaocai',
+    name: 'yaocai',
+    component: () => import( '../views/yaocai/yaocai.vue')
+  },
+  {
+    path: '/yaocai_newsA',
+    name: 'yaocai_newsA',
+    component: () => import( '../views/yaocai/yaocai_newsA.vue')
+  },
+  {
+    path: '/yaocai_newsB',
+    name: 'yaocai_newsB',
+    component: () => import( '../views/yaocai/yaocai_newsB.vue')
+  },
+// 购物车页面
+{
+  path: '/shopping',
+  name: 'shopping',
+  component: () => import( '../views/shopping.vue')
+},
+// 订单页
+{
+  path: '/orderForm/:xixi',
+  name: 'orderForm',
+  component: () => import( '../views/orderForm.vue')
+},
+// 搜索列表页
+{
+  path: '/yaocai_list',
+  name: 'yaocai_list',
+  component: () => import( '../views/yaocai/yaocai_list.vue')
+},
+{
+  path: '/yaocai_listB',
+  name: 'yaocai_listB',
+  component: () => import( '../views/yaocai/yaocai_listB.vue')
+},
+>>>>>>> 2f6ab0eda520238e48f69772e2e21670f38b5beb
 
 
 

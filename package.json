@@ -12,7 +12,10 @@
     "axios": "^0.20.0",
     "core-js": "^3.6.5",
     "element-ui": "^2.13.2",
+<<<<<<< HEAD
     "lib-flexible": "^0.3.2",
+=======
+>>>>>>> 2f6ab0eda520238e48f69772e2e21670f38b5beb
     "mockjs": "^1.1.0",
     "postcss-px2rem": "^0.3.0",
     "vant": "^2.10.3",

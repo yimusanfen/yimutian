@@ -47,7 +47,11 @@ export default {
 <style scoped>
     /* .botbar{
         width: 100%;
+<<<<<<< HEAD
         height: 1rem;
+=======
+        height: 0.5rem;
+>>>>>>> 2f6ab0eda520238e48f69772e2e21670f38b5beb
         display: flex;
         position: fixed;
         bottom: 0;
