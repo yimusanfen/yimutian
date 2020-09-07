@@ -1,6 +1,6 @@
 <template>
 <div>
-    <img src="images/pingguo.png">
+
 </div>
 </template>
 

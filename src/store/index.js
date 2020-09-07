@@ -5,6 +5,12 @@ Vue.use(Vuex)
 import {seckill} from './module/seckill.js'
 import {under} from "./module/under.js"
 import {underway} from "./module/underway.js"
+import {zhuanqu} from "./module/friuts.js"
+import {tehui} from "./module/discounts.js"
+
+
+
+
 export default new Vuex.Store({
   state: {
   },
@@ -15,6 +21,9 @@ export default new Vuex.Store({
   modules: {
     seckill,
     under,
-    underway
+    underway,
+    zhuanqu,
+    tehui
+   
   }
 })

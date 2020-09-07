@@ -15,7 +15,7 @@ export let seckill={
     actions:{
         listact(context){
             listfun().then((ok)=>{
-                console.log(ok)
+               
                 //调用mutations修改state的数据"
                 context.commit("uplist",ok.data)
             }).catch((err)=>{

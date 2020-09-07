@@ -35,7 +35,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .item {
     width: 90%;
     height: 3rem;
@@ -81,11 +81,12 @@ export default {
 
     width: .2rem;
     height: .3rem;
-    background-color: hotpink;
+    background-color: red;
     padding: 0.2rem 0.3rem;
     margin-left: 1.2rem;
     border-radius: 0.1rem;
-
+    font-size: 0.3rem;
+    color: #fff
 }
 
 .item-right {

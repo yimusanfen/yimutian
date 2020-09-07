@@ -22,7 +22,7 @@
 export default {
     computed: {
         newarr() {
-            return this.$store.state.seckill.obj.filter((item) => {
+            return this.$store.state.underway.obj.filter((item) => {
                 return item.catid == 31
             })
         }

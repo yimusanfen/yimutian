@@ -6,17 +6,13 @@
     <span>超级秒杀</span><br>
     <span>限时底价</span><br>
     <div class="route">
-        <router-link to="/miaoera"> <img src="images/pingguo.png"></router-link>
-        <router-link to="/miaoerb"> <img src="images/mihou.png"></router-link>
+        <router-link to="/zhuanqu"> <img src="images/mihou.png"></router-link>
+        <router-link to="/tehui"> <img src="images/pingguo.png"></router-link>
+
     </div>
-    <!-- <div class="list">
-        <p>今日秒杀</p>
-        <p>进行中</p>
-        <p>即将结束</p>
-    </div>-->
+
     <underway></underway>
     <component :is="com"></component>
-    <router-view></router-view>
 </div>
 </template>
 

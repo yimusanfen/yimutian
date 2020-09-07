@@ -22,7 +22,7 @@
 export default {
     computed: {
         newarr() {
-            return this.$store.state.seckill.obj.filter((item) => {
+            return this.$store.state.under.obj.filter((item) => {
                 return item.catid == 2
             })
         }
@@ -81,11 +81,12 @@ export default {
 
     width: .2rem;
     height: .3rem;
-    background-color: hotpink;
+    background-color: red;
     padding: 0.2rem 0.3rem;
     margin-left: 1.2rem;
     border-radius: 0.1rem;
-
+    font-size: 0.3rem;
+    color: #fff
 }
 
 .item-right {

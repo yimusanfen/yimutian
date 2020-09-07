@@ -57,10 +57,6 @@ Vue.use(VueRouter)
     path: '/miaosha',
     name: 'miaosha',
     component: () => import( '../views/index/classify/miaosha.vue'),
-    children:[
-      {path:"/miaoera",name:"miaoera",components:()=>import('../views/index/classify/miaoer/miaoera')},
-      {path:"/miaoerb",name:"miaoerb",components:()=>import('../views/index/classify/miaoer/miaoerb')}
-    ]
   },
   //拼工厂
   {
@@ -80,9 +76,32 @@ Vue.use(VueRouter)
     name: 'yijiandaifa',
     component: () => import( '../views/index/classify/yijiandaifa.vue')
   },
+   //19.9专区
+  {       
+    path:"/zhuanqu",
+    name:"zhuanqu",
+    component:()=>import('../views/index/classify/miaoer/zhuanqu.vue'),
+  },
+  //特惠
+  {
+    path:"/tehui",
+    name:"tehui",
+    component:()=>import('../views/index/classify/miaoer/tehui.vue')
+    
+  },
+  //详情页
+  {
+  path:"/details",
+  name:"details", 
+  component:()=>import('../views/index/classify/miaoer/details.vue')
+},
+  //排行榜
 
-
-
+{
+  path:"/example",
+  name:"example", 
+  component:()=>import('../views/index/classify/miaoer/example.vue')
+},
 
 
 
