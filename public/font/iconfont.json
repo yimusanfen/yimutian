@@ -1,23 +1,18 @@
 {
-<<<<<<< HEAD
-  "id": "1916749",
-  "name": "koala",
-=======
   "id": "2038175",
   "name": "一亩田",
->>>>>>> f7fc063721ce4cb9402e162eb4f618731889ea9d
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
     {
-<<<<<<< HEAD
       "icon_id": "11322854",
       "name": "分享",
       "font_class": "fenxiang",
       "unicode": "e6c0",
       "unicode_decimal": 59072
-=======
+    },
+    {
       "icon_id": "14321218",
       "name": "miaosha",
       "font_class": "miaosha",
@@ -324,7 +319,6 @@
       "font_class": "dianhua",
       "unicode": "e62d",
       "unicode_decimal": 58925
->>>>>>> f7fc063721ce4cb9402e162eb4f618731889ea9d
     }
   ]
 }

@@ -17,7 +17,7 @@ export default {
     data(){
         return {
             listarr:[
-                {id:1,title:"生意圈",imgsrc:"images/discover/index/dis1.jpg",to:"/"},
+                {id:1,title:"生意圈",imgsrc:"images/discover/index/dis1.jpg",to:"/businesscircle"},
                 {id:2,title:"广场",imgsrc:"images/discover/index/dis2.jpg",to:"/"},
                 {id:3,title:"新农视频",imgsrc:"images/discover/index/dis3.jpg",to:"/"},
                 {id:4,title:"直播",imgsrc:"images/discover/index/dis4.jpg",to:"/"},
@@ -31,9 +31,6 @@ export default {
     },
     mounted(){
         
-    },
-    components: {
-        bottomBar
     }
 }
 </script>

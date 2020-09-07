@@ -19,8 +19,7 @@ export default {
 </script>
 
 <style scoped>
-<<<<<<< HEAD
-    .classify{
+    /* .classify{
         width: 100%;
         height: 2rem;
         flex-flow: wrap;
@@ -28,10 +27,8 @@ export default {
     }
     .classify-item{
         width: 20%;
-    }
-</style>
-=======
-.classify {
+    } */
+    .classify {
     width: 100%;
     height: 3rem;
     display: flex;
@@ -44,5 +41,6 @@ export default {
     width: 20%;
     height: 1.4rem;
 }
+
+
 </style>
->>>>>>> f7fc063721ce4cb9402e162eb4f618731889ea9d
