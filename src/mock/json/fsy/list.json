@@ -1,0 +1,66 @@
+
+[
+  {
+    "img":"images/jidan.png",
+    "title":"土鸡蛋，蛋黄炖炒不变色，无抗养殖，日产三百箱，破损",
+    "annotation":"1件起/湖北随州曾都区",
+    "num":"￥190/件",
+    "discounts":"￥220",
+    "click":"去抢购",
+    "catid":"1"
+ },
+ {
+    "img":"images/xihong.png",
+    "title":"土鸡蛋，蛋黄炖炒不变色，无抗养殖，日产三百箱，破损",
+    "annotation":"1件起/湖北随州曾都区",
+    "num":"￥18/件",
+    "discounts":"￥220",
+    "click":"去抢购",
+    "catid":"2"
+},
+{
+    "img":"images/muer.png",
+    "title":"土鸡蛋，蛋黄炖炒不变色，无抗养殖，日产三百箱，破损",
+    "annotation":"1件起/湖北随州曾都区",
+    "num":"￥23/件",
+    "discounts":"￥220",
+    "click":"去抢购",
+    "catid":"3"
+},
+{
+    "img":"images/dicao.png",
+    "title":"土鸡蛋，蛋黄炖炒不变色，无抗养殖，日产三百箱，破损",
+    "annotation":"1件起/湖北随州曾都区",
+    "num":"￥45/件",
+    "discounts":"￥220",
+    "click":"去抢购",
+    "catid":"1"
+},
+{
+    "img":"images/xihong.png",
+    "title":"土鸡蛋，蛋黄炖炒不变色，无抗养殖，日产三百箱，破损",
+    "annotation":"1件起/湖北随州曾都区",
+    "num":"￥34/件",
+    "discounts":"￥220",
+    "click":"去抢购",
+    "catid":"2"
+},
+{
+    "img":"images/niurou.png",
+    "title":"土鸡蛋，蛋黄炖炒不变色，无抗养殖，日产三百箱，破损",
+    "annotation":"1件起/湖北随州曾都区",
+    "num":"￥78/件",
+    "discounts":"￥220",
+    "click":"去抢购",
+    "catid":"3"
+},
+{
+    "img":"images/hua.png",
+    "title":"土鸡蛋，蛋黄炖炒不变色，无抗养殖，日产三百箱，破损",
+    "annotation":"1件起/湖北随州曾都区",
+    "num":"￥23/件",
+    "discounts":"￥220",
+    "click":"去抢购",
+    "catid":"1"
+}
+]

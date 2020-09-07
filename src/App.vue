@@ -1,6 +1,7 @@
 <template>
 <div id="app">
     <div id="nav">
+
     </div>
     <router-view />
 </div>
@@ -15,4 +16,8 @@
     height: 100%;
   }
 
+html,
+body {
+    width: 100%;
+}
 </style>

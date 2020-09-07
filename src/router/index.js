@@ -166,9 +166,32 @@ const routes = [
     component: () => import('../views/index/maijia/shouye/ceshi5.vue')
   },
 
+   //19.9专区
+  {       
+    path:"/zhuanqu",
+    name:"zhuanqu",
+    component:()=>import('../views/index/classify/miaoer/zhuanqu.vue'),
+  },
+  //特惠
+  {
+    path:"/tehui",
+    name:"tehui",
+    component:()=>import('../views/index/classify/miaoer/tehui.vue')
+    
+  },
+  //详情页
+  {
+  path:"/details",
+  name:"details", 
+  component:()=>import('../views/index/classify/miaoer/details.vue')
+},
+  //排行榜
 
-
-
+{
+  path:"/example",
+  name:"example", 
+  component:()=>import('../views/index/classify/miaoer/example.vue')
+},
 
 
 

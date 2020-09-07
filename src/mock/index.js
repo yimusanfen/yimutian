@@ -30,3 +30,7 @@ Mock.mock("/home/listdata","get",require("./json/listdata.json"))
 // Mock.mock("/xiaoming","get",require("./json/ivdeoapi.json"));
 
 Mock.mock("/xiaoming", "get", require("./json/hxhome.json"));
+Mock.mock("/over/list","get",require("./json/fsy/list.json"));
+Mock.mock("/zhuanqu/friuts","get",require("./json/fsy/friuts.json"));
+Mock.mock("/tehui/discounts","get",require("./json/fsy/discounts.json"));
+
