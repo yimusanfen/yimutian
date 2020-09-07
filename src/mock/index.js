@@ -29,4 +29,4 @@ Mock.mock("/home/listdata","get",require("./json/listdata.json"))
 // let Mock =require("mockjs");
 // Mock.mock("/xiaoming","get",require("./json/ivdeoapi.json"));
 
-
+Mock.mock("/xiaoming", "get", require("./json/hxhome.json"));

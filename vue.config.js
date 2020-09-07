@@ -1,8 +1,8 @@
-module.exports ={ 
+module.exports = {
     //配置解析别名
-    configureWebpack:{
-        resolve:{
-            alias:{
+    configureWebpack: {
+        resolve: {
+            alias: {
                 //"别名":"对应的文件夹"
                 "&c":"@/components",
                 "&a":"@/api",
@@ -10,16 +10,18 @@ module.exports ={
                 "&s":"@/store",
                 "&m":"@/mock",
                 "&u":"@/utils",
-                "&mi":"@/mixins"
+                "&mi":"@/mixins",
+                "#1": "@/components/maihuo",
+                "#2": "@/utils"
             }
         }
     },
     //自动开启和端口配置
-    devServer:{
-        open:true,//自动开启
-        port:8888,//端口，默认3000
-        host:"127.0.0.1",
-        hotOnly:true,//热更新
+    devServer: {
+        open: true, //自动开启
+        port: 8888, //端口，默认3000
+        host: "127.0.0.1",
+        hotOnly: true, //热更新
         //跨域配置
         // proxy:{
         //     '/api':{

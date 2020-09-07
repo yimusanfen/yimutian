@@ -1,10 +1,13 @@
 <template>
 <div class="botbar">
-    <router-link class="botbar-item" v-for="(v,i) in botBarArr" :to="v.path" :key="i">{{v.name}}</router-link>
+    <!-- <router-link class="botbar-item" v-for="(v,i) in botBarArr" :to="v.path" :key="i">{{v.name}}</router-link> -->
+    <bottomBarzi v-for="(v,i) in this.$store.state.hxhome.arr.botBarArr_arr" :key="i" :icon="v.icon" :name="v.name" :path="v.path"></bottomBarzi>
+
 </div>
 </template>
 
 <script>
+import bottomBarzi from '&c/index/bottomBarzi.vue'
 export default {
     data() {
         return {
@@ -30,13 +33,19 @@ export default {
                 },
 
             ]
-        }
+        }   
+},
+ components: {
+        bottomBarzi
+    },
+    mounted() {
+        this.$store.dispatch("listact")
     },
 }
 </script>
 
 <style scoped>
-    .botbar{
+    /* .botbar{
         width: 100%;
         height: 1rem;
         display: flex;
@@ -49,5 +58,14 @@ export default {
         text-align: center;
         align-items: center;
         line-height: 1rem;
-    }
+    } */
+.botbar {
+    width: 100%;
+    height: .8rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+
+    background-color: #ffffff;
+}
 </style>

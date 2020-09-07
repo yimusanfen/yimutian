@@ -1,6 +1,7 @@
 <template>
 <div>
-    聊生意
+    <liao></liao>
+    <lists></lists>
     <bottomBar></bottomBar>
 
 </div>
@@ -8,9 +9,13 @@
 
 <script>
 import bottomBar from '&c/index/bottomBar.vue'
+import liao from '&c/liao/liao.vue'
+import lists from '&c/liao/lists.vue'
 export default {
     components: {
-        bottomBar
+        bottomBar,
+        liao,
+        lists
     }
 }
 </script>

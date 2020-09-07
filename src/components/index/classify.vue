@@ -1,31 +1,25 @@
 <template>
-    <div class="classify">
-        <router-link class="classify-item" v-for="(v,i) in arr" :key="i" :to="v.path">{{v.name}}</router-link>
-    </div>
+<div class="classify">
+
+    <Classifyzi v-for="(v,i) in this.$store.state.hxhome.arr.classify_arr" :key="i" :cass="v.cass" :name="v.name" class="zi" :to="v.path"></Classifyzi>
+
+</div>
 </template>
 
 <script>
+import Classifyzi from "&c/index/classifyzi.vue"
 export default {
-    data() {
-        return {
-            arr:[
-                {name:"餐厅食材",path:"/restaurant"},
-                {name:"限时秒杀",path:"/miaosha"},
-                {name:"拼工厂",path:"/pingongchang"},
-                {name:"包基地",path:"/baojidi"},
-                {name:"一件代发",path:"/yijiandaifa"},
-                {name:"滋补药材",path:"/yijiandaifa"},
-                {name:"农机农资",path:"/yijiandaifa"},
-                {name:"补贴专区",path:"/yijiandaifa"},
-                {name:"品质种苗",path:"/yijiandaifa"},
-                {name:"最新资源",path:"/yijiandaifa"},
-            ]
-        }
+    components: {
+        Classifyzi
+    },
+    mounted() {
+        this.$store.dispatch("listact")
     },
 }
 </script>
 
 <style scoped>
+<<<<<<< HEAD
     .classify{
         width: 100%;
         height: 2rem;
@@ -36,3 +30,19 @@ export default {
         width: 20%;
     }
 </style>
+=======
+.classify {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    margin-top: .4rem;
+    flex-flow: wrap;
+
+}
+
+.zi {
+    width: 20%;
+    height: 1.4rem;
+}
+</style>
+>>>>>>> f7fc063721ce4cb9402e162eb4f618731889ea9d

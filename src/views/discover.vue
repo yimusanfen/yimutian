@@ -32,6 +32,9 @@ export default {
     mounted(){
         
     },
+    components: {
+        bottomBar
+    }
 }
 </script>
 
@@ -55,4 +58,5 @@ export default {
         position: fixed;
         bottom: 0;
     }
+
 </style>
