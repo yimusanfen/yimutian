@@ -4,7 +4,6 @@ import Vuex from 'vuex'
 import {resmodule} from './module/restaurant.js'
 import {shangjia} from './module/shangjia.js'
 Vue.use(Vuex)
-<<<<<<< HEAD
 import {mhome} from "./module/mhonme.js"
 import {hxhome} from './module/hxhome.js'
 import {seckill} from './module/seckill.js'
@@ -13,14 +12,6 @@ import {underway} from "./module/underway.js"
 import {zhuanqu} from "./module/friuts.js"
 import {tehui} from "./module/discounts.js"
 
-
-
-
-export default new Vuex.Store({
-  state: {},
-  mutations: {},
-  actions: {},
-=======
 import {linkdemoA} from "@/api/yaocaiApi_A.js"
 export default new Vuex.Store({
   state: {
@@ -29,7 +20,7 @@ export default new Vuex.Store({
   mutations: {
     pageData_A(state,payload){
       state.objA=payload
-  },
+    },
   },
   actions: {
     // 进行异步的请求
@@ -42,7 +33,6 @@ export default new Vuex.Store({
       })
   },
   },
->>>>>>> 2f6ab0eda520238e48f69772e2e21670f38b5beb
   modules: {
     resmodule,
     shangjia,

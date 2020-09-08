@@ -8,16 +8,12 @@ module.exports = {
                 "&a":"@/api",
                 "&v":"@/views",
                 "&s":"@/store",
-<<<<<<< HEAD
                 "&m":"@/mock",
                 "&u":"@/utils",
                 "&mi":"@/mixins",
                 "#1": "@/components/maihuo",
-                "#2": "@/utils"
-=======
-                "&m":"@mock",
+                "#2": "@/utils",
                 "#Y":"@/components/yaocai"
->>>>>>> 2f6ab0eda520238e48f69772e2e21670f38b5beb
             }
         }
     },

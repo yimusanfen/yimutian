@@ -2,11 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-require("./mock/index.js")
 
-// import ElementUI from 'element-ui';
-// import 'element-ui/lib/theme-chalk/index.css';
-// Vue.use(ElementUI);
 //全局引入axios
 import axios from 'axios'
 Vue.prototype.axios = axios
@@ -19,7 +15,7 @@ Vue.use(Vant);
 require("./mock/index.js")
 
 //移动端适配
-import 'lib-flexible'
+// import 'lib-flexible'
 
 
 import { Tab, Tabs } from 'vant';
@@ -31,17 +27,8 @@ Vue.use(Card);
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-
 Vue.use(ElementUI);
 
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-Vue.use(ElementUI);
-
-
-
-//模拟数据
-require("./mock/index.js")
 
 Vue.config.productionTip = false
 

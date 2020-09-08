@@ -4,18 +4,11 @@
     <topBar></topBar>
     <div class="iss">
         <classify></classify>
-<<<<<<< HEAD
         <melons></melons>
         <envelope></envelope>
         <navs></navs>
         <server></server>
 
-=======
-        <h2>首页</h2>
-        
-        <bottomBar></bottomBar>
-        
->>>>>>> 2f6ab0eda520238e48f69772e2e21670f38b5beb
     </div>
     <bottomBar></bottomBar>
 
